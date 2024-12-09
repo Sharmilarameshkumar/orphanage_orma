@@ -1,0 +1,15 @@
+/* src/components/Header.css */
+.header {
+    background-color: #cacfd3; /* Light background color */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; /* Spacing between header and navbar */
+    box-shadow: 0 2px 4px blue(207, 178, 178, 0.1); /* Subtle shadow effect */
+  }
+  
+  .header h1 {
+    margin: 0;
+    color: #060606; /* Dark text color */
+  }
+  
+  

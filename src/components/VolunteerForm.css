@@ -1,0 +1,86 @@
+/* src/components/VolunteerForm.css */
+
+.volunteer-form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.volunteer-form-container h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.volunteer-form .form-group {
+  margin-bottom: 20px;
+}
+
+.volunteer-form .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+  font-family: 'Arial', sans-serif;
+}
+
+.volunteer-form .form-group input,
+.volunteer-form .form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.volunteer-form .form-group input:focus,
+.volunteer-form .form-group textarea:focus {
+  outline: none;
+  border-color: #28a745;
+}
+
+.volunteer-form .form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.volunteer-form .submit-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s;
+}
+
+.volunteer-form .submit-btn:hover {
+  background-color: #218838;
+}
+
+.form-status {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 16px;
+  color: green;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-status.error {
+  color: red;
+}
